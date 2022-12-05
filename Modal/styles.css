@@ -1,0 +1,88 @@
+:root {
+    --black: #333;
+    --white: #f7f7f7;
+    --background-color: linear-gradient(90deg, #0C3DF4 0%, #02B5FF 100%);
+}
+
+body {
+    font-family: "Poppins";
+    background: var(--background-color);
+    padding: 0;
+    margin: 0;
+    padding: 40px;
+    line-height: 28px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal {
+    cursor: pointer;
+    font-family: "Poppins";
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 40px;
+}
+
+#card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 350px;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px;
+    font-size: smaller;
+}
+
+.hidden{
+    display: none;
+}
+
+h3{
+    border-bottom: 0.5px solid #504e4e5d;
+    padding: 5px;
+
+}
+
+.txt{
+    color: grey;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x{
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.again{
+    cursor: pointer;
+    flex: 1;
+    border: none;
+    height: 40px;
+    background-color: green;
+    color: white;
+}
